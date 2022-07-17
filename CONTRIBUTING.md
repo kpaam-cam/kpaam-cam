@@ -15,7 +15,13 @@ $ pip install -r requirements.txt  # installs the cloned version with dev-tools 
 Then create a database:
 
 ```sh
-$ su - postgres(or, if that doesn't work, try psql -U postgres)
+$ su - postgres
+```
+(or, if that doesn't work, try "psql -U postgres")
+
+Then
+
+```sh
 $ createdb kpaamcam
 ```
 
