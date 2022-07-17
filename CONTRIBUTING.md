@@ -28,7 +28,12 @@ $ createdb kpaamcam
 and initialize it, either
 - loading a dump of the production DB, using the app's `load_db` task from the
 `appconfig` package
-- or by running `clld initdb development.ini` (may require access to the appropriate data repository).
+- or by running `clld initdb development.ini --glottolog [/path/to/glottolog] --cldf [/path/to/cldf]`
+
+The Glottolog can be found here: https://github.com/glottolog/glottolog
+The current CLDF for this app can be found here: https://github.com/kpaam-cam/lowerfungom-wordlists
+
+A sample development.ini file can be found here: 
 
 Now you should be able to run the tests:
 
