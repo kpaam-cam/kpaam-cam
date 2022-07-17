@@ -19,7 +19,7 @@ $ su - postgres
 ```
 (or, if that doesn't work, try "psql -U postgres")
 
-Then
+Then:
 
 ```sh
 $ createdb kpaamcam
