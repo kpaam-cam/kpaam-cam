@@ -41,3 +41,12 @@ Now you should be able to run the tests:
 ```sh
 $ pytest
 ```
+
+More information on how to run a local server is here:
+https://clld.readthedocs.io/en/latest/tutorial.html
+
+It should be possible to activate by running:
+
+```sh
+pserve --reload development.ini
+```
