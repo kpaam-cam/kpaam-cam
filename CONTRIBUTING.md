@@ -34,7 +34,7 @@ The Glottolog can be found here: https://github.com/glottolog/glottolog
 
 The current CLDF for this app can be found here: https://github.com/kpaam-cam/lowerfungom-wordlists
 
-A sample development.ini file.
+A sample development.ini file is included in the repository.
 
 Now you should be able to run the tests:
 
