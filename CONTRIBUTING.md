@@ -5,7 +5,7 @@ Install the development environment:
 
 ```sh
 $ pip install virtualenv  # might require sudo/admin privileges
-$ git clone https://github.com/clld/clld.git  # you may also clone a suitable fork
+$ git clone https://github.com/kpaam-cam/kpaamcam.git  # you may also clone a suitable fork
 $ cd kpaamcam
 $ python -m virtualenv .venv
 $ source .venv/bin/activate  # Windows: .venv\Scripts\activate.bat
